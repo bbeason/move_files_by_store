@@ -24,3 +24,6 @@ for files in names:
     if "northside" in files and not os.path.exists(path+'Northside/'+files):
         shutil.move(path+files, path+'Northside/'+files)
 
+
+print("Files moved")
+
